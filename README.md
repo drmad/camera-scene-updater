@@ -9,6 +9,8 @@ This script behaves like the `Ctrl + NUMPAD_0` key combination for active a obje
 Once downloaded, follow the standard installation and activation procedure found in https://www.blender.org/manual/advanced/scripting/python/addons.html
 
 ## Usage
+Run the add-on selecting a camera (or any object), and press `Ctrl + Shift + NUMPAD_0`. It will change the active camera and change the viewport to it, like `Ctrl + NUMPAD_0`, but also will execute the camera commands.
+
 The commands and its arguments must be written in the camera name inside square brackets. Several commands are separater by a colon character. If the script doesn't found the square brakets, it just behaves the same as `Ctrl + NUMPAD_0`.
 
     camera_name[<command><args>:<command><args>:...]
